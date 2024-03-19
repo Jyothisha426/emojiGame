@@ -1,0 +1,18 @@
+.main-app-container {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  height: 100vh;
+}
+
+.shuffled-emojis-container {
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.win-lose-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,30 @@
+.each-emoji {
+  background-color: #ffffff33;
+  width: 20%;
+  height: 20%;
+  border-radius: 11px;
+  text-align: center;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 4px solid #ffffff33;
+}
+
+.emoji-btn {
+  outline: none;
+  border: 0px solid transparent;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.emoji-styles {
+  width: 45px;
+  height: 45px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-styles {
+    width: 60px;
+    height: 60px;
+  }
+}
